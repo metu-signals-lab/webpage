@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>METU Signals Lab</title>
+<style>
+  :root {
+    --red: #d7262e;
+    --red-dark: #a81d24;
+    --ink: #222;
+    --muted: #666;
+    --line: #e5e5e5;
+    --bg: #ffffff;
+    --panel: #faf7f7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+  }
+  header {
+    background: var(--red);
+    color: #fff;
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 8px;
+    font-size: 2.2rem;
+    font-weight: normal;
+    letter-spacing: 0.02em;
+  }
+  header p { margin: 0; opacity: 0.95; }
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+  }
+  section { margin-bottom: 40px; }
+  h2 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: var(--red-dark);
+    border-bottom: 2px solid var(--red);
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+  }
+  p { margin: 0 0 12px; }
+  .members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background: var(--panel);
+    border-left: 4px solid var(--red);
+    padding: 20px;
+  }
+  .card h3 {
+    margin: 0 0 4px;
+    font-size: 1.15rem;
+    font-weight: normal;
+  }
+  .role {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+  }
+  .card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  .card li { margin-bottom: 6px; }
+  a { color: var(--red-dark); }
+  .note {
+    font-size: 0.9rem;
+    color: var(--muted);
+    border-top: 1px solid var(--line);
+    padding-top: 16px;
+    margin-top: 40px;
+  }
+  footer {
+    background: var(--panel);
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>METU Signals Lab</h1>
+  <p>Signal Processing Research Group, Middle East Technical University</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>About the Group</h2>
+    <p>
+      The METU Signals Lab is a small research group in the Department of Electrical and
+      Electronics Engineering at Middle East Technical University. Our work focuses on
+      direction-of-arrival (DOA) estimation for coherent signals using sparse arrays.
+    </p>
+    <p>
+      We study how classical model-based methods and modern deep learning approaches
+      can be combined to improve estimation performance in array signal processing.
+    </p>
+  </section>
+
+  <section>
+    <h2>Members</h2>
+    <div class="members">
+
+      <div class="card">
+        <h3>Prof. Tolga Çiloğlu</h3>
+        <div class="role">Principal Investigator</div>
+        <ul>
+          <li><a href="https://eee.metu.edu.tr/personel/tolga-ciloglu">Department profile</a></li>
+          <li>Email: <a href="mailto:ciltolga@metu.edu.tr">ciltolga@metu.edu.tr</a></li>
+          <li>Office: D-206</li>
+          <li>Tel: 210 2352</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Alp Gürsoy</h3>
+        <div class="role">Graduate Researcher</div>
+        <ul>
+          <li><a href="https://eee.metu.edu.tr/tr/personel/alp-gursoy">Department profile</a></li>
+          <li>Email: <a href="mailto:galp@metu.edu.tr">galp@metu.edu.tr</a></li>
+          <li>Office: D-215</li>
+          <li>Tel: 210 4514</li>
+          <li>BSc, METU, 2021</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      For inquiries about the group, please contact
+      <a href="mailto:ciltolga@metu.edu.tr">Prof. Tolga Çiloğlu</a>.
+    </p>
+  </section>
+
+  <p class="note">
+    This is an independent research group page maintained by the members listed above.
+    It is not an official Middle East Technical University website.
+  </p>
+
+</main>
+
+<footer>
+  METU Signals Lab &middot; Department of Electrical and Electronics Engineering &middot; Middle East Technical University
+</footer>
+
+</body>
+</html>
